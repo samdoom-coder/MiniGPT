@@ -2,7 +2,25 @@
 
 A GPT-style language model built completely from scratch in **PyTorch** for educational purposes.
 
+> A lightweight implementation of a GPT-style model built from scratch for text generation tasks.
+
 This project implements the complete GPT pipeline, including tokenizer training, Transformer architecture, language model training, and text generation without relying on pre-built GPT implementations.
+
+---
+## 📋 Table of Contents
+
+- [About](#about)
+- [Installation](#installation)
+- [Download the Model](#download-the-model)
+- [Load the Model](#load-the-model)
+- [Usage](#usage)
+- [Complete Example](#complete-example)
+- [Generation Parameters](#generation-parameters)
+- [GPU Support](#gpu-support)
+- [Requirements](#requirements)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
@@ -109,27 +127,6 @@ Epochs
 ---
 
 Great! Since you said "yes", I'll add some placeholder sections for the remaining information. Here's the COMPLETE and FINAL README file:
-
----
-
-# MiniGPT
-
-> A lightweight implementation of a GPT-style model built from scratch for text generation tasks.
-
-## 📋 Table of Contents
-
-- [About](#about)
-- [Installation](#installation)
-- [Download the Model](#download-the-model)
-- [Load the Model](#load-the-model)
-- [Usage](#usage)
-- [Complete Example](#complete-example)
-- [Generation Parameters](#generation-parameters)
-- [GPU Support](#gpu-support)
-- [Requirements](#requirements)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Contact](#contact)
 
 ---
 
@@ -463,78 +460,6 @@ This README is now complete! Let me know if you want me to:
 3. Add more example prompts and outputs
 4. Add any other sections you need
 
-# Text Generation
-
-MiniGPT supports multiple decoding strategies:
-
-- Greedy Decoding
-- Temperature Sampling
-- Top-k Sampling
-- Top-p (Nucleus) Sampling
-
-Example:
-
-```python
-output = model.generate(
-    input_ids,
-    max_new_tokens=200,
-    temperature=0.8,
-    top_k=100,
-    top_p=0.9,
-)
-```
-
----
-
-# Example Output
-
-### Prompt
-
-```
-Once upon a time
-```
-
-### Output
-
-```
-There was a little girl with dark hair and a smile.
-She was very happy.
-She ran to her mom and showed her the new dress.
-Her mom smiled and said,
-"Thank you, Lily.
-You are a very good girl."
-
-Lily smiled and said,
-"I love you too, mom.
-You are very kind."
-```
-
----
-
-# Project Structure
-
-```
-MiniGPT
-│
-├── src/
-│   ├── attention.py
-│   ├── config.py
-│   ├── dataset.py
-│   ├── embeddings.py
-│   ├── feedforward.py
-│   ├── model.py
-│   ├── trainer.py
-│   └── transformer.py
-│
-├── tokenizer/
-│   ├── tokenizer.json
-│   └── tokenizer_config.json
-│
-├── train.py
-├── generate.py
-├── train_tokenizer.py
-└── README.md
-```
 
 ---
 
