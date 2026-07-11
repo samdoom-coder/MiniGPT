@@ -103,7 +103,7 @@ Batch Size
 Epochs
 
 ```
-3
+20
 ```
 
 ---
