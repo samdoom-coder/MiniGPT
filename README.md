@@ -29,6 +29,12 @@ This project implements the complete GPT pipeline, including tokenizer training,
 
 ---
 
+# Huggingface
+
+https://huggingface.co/Brutalsky111/MiniGPT-Scratch-5M
+
+---
+
 # Features
 
 - ✅ Custom BPE Tokenizer
