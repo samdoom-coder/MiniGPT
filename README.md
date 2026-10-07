@@ -8,10 +8,6 @@ This project implements the complete GPT pipeline, including tokenizer training,
 
 ---
 
-**Right now this repo doesnot contain any training and dataset files it will be available soon with the proper notebook for educational purpose so, everyone can know the archticture and logics behind the modern AI.**
-
----
-
 ## 📋 Table of Contents
 
 - [About](#about)
