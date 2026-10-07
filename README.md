@@ -6,6 +6,7 @@ A GPT-style language model built completely from scratch in **PyTorch** for educ
 
 This project implements the complete GPT pipeline, including tokenizer training, Transformer architecture, language model training, and text generation without relying on pre-built GPT implementations.
 
+* Huggingface : https://huggingface.co/Seedyai/MiniGPT-Scratch-5M
 ---
 
 ## 📋 Table of Contents
@@ -25,11 +26,7 @@ This project implements the complete GPT pipeline, including tokenizer training,
 
 ---
 
-# Huggingface
-
-https://huggingface.co/Brutalsky111/MiniGPT-Scratch-5M
-
----
+Huggingface : https://huggingface.co/Seedyai/MiniGPT-Scratch-5M
 
 # Features
 
@@ -174,7 +171,7 @@ Download the pre-trained model weights from HuggingFace:
 from huggingface_hub import snapshot_download
 
 snapshot_download(
-    repo_id="Brutalsky111/MiniGPT-Scratch-5M",
+    repo_id="Seedyai/MiniGPT-Scratch-5M",
     local_dir="MiniGPT"
 )
 ```
