@@ -6,6 +6,8 @@ A GPT-style language model built completely from scratch in **PyTorch** for educ
 
 This project implements the complete GPT pipeline, including tokenizer training, Transformer architecture, language model training, and text generation without relying on pre-built GPT implementations.
 
+Notebooks is attached to this repo you can learn how you can make your owm mini-gpt.
+
 * Huggingface : https://huggingface.co/Seedyai/MiniGPT-Scratch-5M
 ---
 
